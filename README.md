@@ -89,6 +89,9 @@ pip install medusa-llm
 git clone https://github.com/FasterDecoding/Medusa.git
 cd Medusa
 pip install -e .
+echo "these modifications are needed:"
+pip install transformers==4.34.1
+pip install accelerate==0.31.0
 ```
 
 ### Model Weights
